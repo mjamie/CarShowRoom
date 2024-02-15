@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab402d8bad694642a00edc75b73b570, type: 3}
+  m_Name: Question 4
+  m_EditorClassIdentifier: 
+  question: What unit of measurement is used to express the capacity of an electric
+    vehicle's battery?
+  answers:
+  - Watts
+  - Volts
+  - Amps
+  - Kilowatt-hours (kWh)
+  answerNumber: 3
+  longAnswer: The capacity of an electric vehicle's battery is typically measured
+    in kilowatt-hours (kWh). It's an indicator of how much energy the battery can
+    store.

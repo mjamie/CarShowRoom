@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: 54d72e718df3876438292d0d986f2c2a
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminum
+    second: {fileID: 2100000, guid: 34de830d6d2bc514fa335512c7bbbdab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackPlain
+    second: {fileID: 2100000, guid: 4a5db0e82e0ba6242b08613b79755c40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrakeCaliper
+    second: {fileID: 2100000, guid: 4c1cda9c5dd63ae459cd0fb889c3df20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarPaint
+    second: {fileID: 2100000, guid: 3cf1e712adf4ccb4b90030857ba1c40a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarPaintBlack
+    second: {fileID: 2100000, guid: 298a029f48255fe44996991df4d22656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: c1754c673abe3a44d9309d1f024f660c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChromeLightsBump
+    second: {fileID: 2100000, guid: 42c52afd6b2b65f448d1237f10a938eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassLights
+    second: {fileID: 2100000, guid: 7198fa34d975d604989ab9d8a3b3c185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassLightsDkBump
+    second: {fileID: 2100000, guid: 1210279dcf2e08d4ab8617147688e86a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassLightsLamp
+    second: {fileID: 2100000, guid: f11af51993b8ac34186d86d699e7829b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassLightsLtBump
+    second: {fileID: 2100000, guid: 9c76e23d54fc104468529899192dbf54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassRed
+    second: {fileID: 2100000, guid: d5d5f3bdaf82f0f4a86c35e768f980be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassTextured
+    second: {fileID: 2100000, guid: c5d103b0b7b30074b8eb0567e7549acc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassWinds
+    second: {fileID: 2100000, guid: 9029b83d2cafc7e43947c92b7996831f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HdLightsLens
+    second: {fileID: 2100000, guid: 0c52c74f6dd509141a652a564570f612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampIllum
+    second: {fileID: 2100000, guid: f68c1ac3286aee44c83d155bc0db9a62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampIllumTail
+    second: {fileID: 2100000, guid: 0745d1988e200a84f8d3ea3579536823, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LogoDFS
+    second: {fileID: 2100000, guid: ff88e4764466aba4a978c0721cf0a0f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 0a71f2a10bc17ea4fb09b68597fd49b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasticDkPlain
+    second: {fileID: 2100000, guid: e1296005fefc73444966571516904684, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasticLogoBlue
+    second: {fileID: 2100000, guid: f17d1736a8d35314db542a39867ff471, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WheelAluminumRim
+    second: {fileID: 2100000, guid: d628d0b5f0263da4a938f7d5f315b8bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WheelBrakeDisk
+    second: {fileID: 2100000, guid: da65b7b7b031cb34e92a1d77dfeaf5ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WheelLogo
+    second: {fileID: 2100000, guid: 8f994115a955a6e4185f66b51a0446fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WheelLogoBlue
+    second: {fileID: 2100000, guid: 82d734eacdaf1974faefad32f282cbf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WheelPaintDk
+    second: {fileID: 2100000, guid: 18a1314de92cdcc4991e7775b7fad652, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WheelTireBump
+    second: {fileID: 2100000, guid: e26d8c373b33dec4fa9c1a99be66c6a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intAluminum
+    second: {fileID: 2100000, guid: 24a155231cab5d44bbf709d6e59f280f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intCarpetDk
+    second: {fileID: 2100000, guid: e5952a41c24ed98479c8071ed1db64c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intCarpetLt
+    second: {fileID: 2100000, guid: 4e94da421bd95d448b4b7859a045d380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intFabric
+    second: {fileID: 2100000, guid: 39bee1e6657a68245985c88c6b0dc866, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intLeatherLt
+    second: {fileID: 2100000, guid: 6a2ca26715e6b234fb842943417d0e9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intPlasticDkBump
+    second: {fileID: 2100000, guid: aca777e252d84d84195b906d4fb12879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intPlasticGray
+    second: {fileID: 2100000, guid: 58a732e9742a812418272b254d937e21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intPlasticLight
+    second: {fileID: 2100000, guid: 3408a4fabd642c3418724b75d84ff3fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intPlasticLightBump
+    second: {fileID: 2100000, guid: 1e8b9dc0e9bd0ff46b4f2d7969a490e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intPlasticRecycle
+    second: {fileID: 2100000, guid: 61eca11a1ed0e7e40b17125db2289c72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intPlasticRed
+    second: {fileID: 2100000, guid: 28f4d33920dccb148bd91867b991e6d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intSatellites
+    second: {fileID: 2100000, guid: d9a7f90ff4bca77498459e2d2239dc13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intTexButtons
+    second: {fileID: 2100000, guid: f9976d610dc5da14d98d0a512ef6d8d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: intTexDevices
+    second: {fileID: 2100000, guid: 86d3064482005f745b397111ddf20b4f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BMW i3 Decal design_final_no car-1
+    second: {fileID: 2800000, guid: 0d59712f79586ef44b99b0af2b1f3aa0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ExteriorOST
+    second: {fileID: 2800000, guid: 9aad3ff9ebd1e24428094cda79532e12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FabricDFS
+    second: {fileID: 2800000, guid: 3209612b0bd86a045aeb44f25f53bd47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: InteriorDFS
+    second: {fileID: 2800000, guid: fc3a99e70201d274daf225cbaeac41ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LeatherBMP
+    second: {fileID: 2800000, guid: 5794c4b47b031344d8c0b2d7d85562fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LightsBMP
+    second: {fileID: 2800000, guid: 24d893b4c25757a45a9682102e7b5b7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PatternDFS
+    second: {fileID: 2800000, guid: 832705017c687514e9fc0349a46a8e79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlasticRecycledDFS
+    second: {fileID: 2800000, guid: 3797f505033b50b4a8753fedbc1298c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WheelBMP
+    second: {fileID: 2800000, guid: 19f754213dfb4f549bb9b7efc7fd4f13, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

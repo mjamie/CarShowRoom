@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 4af006184b9d45d44a3934b129da21bd
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-AluminiumCast
+    second: {fileID: 2100000, guid: 149d2d616c8ce064fa640fe472777a61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Anti-roll bar
+    second: {fileID: 2100000, guid: 03db90da2baebe04da13c59df9bed484, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Black
+    second: {fileID: 2100000, guid: 4080d17b2f11f814b94032c1dc7f79c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Black_void
+    second: {fileID: 2100000, guid: 7b62a9edac2a46e428198f92716b2999, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Body
+    second: {fileID: 2100000, guid: eed1b5042fdf5024886f0d131ba9f344, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Body.001
+    second: {fileID: 2100000, guid: 48f4e37cb5e2f144dbbd881c59918e60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Chrome
+    second: {fileID: 2100000, guid: cf7d9c2669134c34bad852d539195493, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Copper
+    second: {fileID: 2100000, guid: af97308ba7a7ae94ab4a9b7b0aada81d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Dumper
+    second: {fileID: 2100000, guid: 29be884d5a902fc48a8f9250950f9329, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Engine-OilBowl
+    second: {fileID: 2100000, guid: e55de467b9cd98c47abd2859fe939f23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Exhaust_muffler
+    second: {fileID: 2100000, guid: f9da57a067b960d40ad114d40ccfc866, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Exhaust_pipe
+    second: {fileID: 2100000, guid: 8045b784dd1840b4f8ff45ce6b0a42d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Glass-Black
+    second: {fileID: 2100000, guid: 4e8d5e9593ae7d3489f99c0f6b58506b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Glass-Clear
+    second: {fileID: 2100000, guid: 71fbedba830f8b5498aae4fafa835e3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Glass-Clear.001
+    second: {fileID: 2100000, guid: ce4f2bd46755e3941b002c18f2d37438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Glass-Dark
+    second: {fileID: 2100000, guid: b2af6fb331dab3d4590ac9c286b369ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Glass_FrontLights
+    second: {fileID: 2100000, guid: 107fc4ef82c594f4e88e644836471ccb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Inside_FrontLights
+    second: {fileID: 2100000, guid: 6c1d3ad663a153b4287a454b6b250f3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Inside_button_red
+    second: {fileID: 2100000, guid: 55035abb5c3ede643b10a19606945ed9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Inside_carpet
+    second: {fileID: 2100000, guid: ad8428e0b8fc4bb44b6f597c329ebbb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Inside_seats
+    second: {fileID: 2100000, guid: caf99b88e73add141a7576c33047016d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Inside_speaker
+    second: {fileID: 2100000, guid: 448bf17a77d1f7448b59a0567cacb940, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Inside_speaker2
+    second: {fileID: 2100000, guid: ca58ad2acd218d745b6a514b3758841e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-LCD1
+    second: {fileID: 2100000, guid: 046e60493c4878d439d777a3b92e786d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-LCD2
+    second: {fileID: 2100000, guid: 3249c5e38ad6e74438c5b4c0f073e920, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Led
+    second: {fileID: 2100000, guid: 659f21307bc5b7d4e927eee422cceb48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Lens
+    second: {fileID: 2100000, guid: 5b864767f499623468993b438a9aeea9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Metal Alu
+    second: {fileID: 2100000, guid: 29a7c64da6f66e9428a881e5fab76973, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Metal Alu.001
+    second: {fileID: 2100000, guid: f6dea04c65c2e104f90d860357320e53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Mirror
+    second: {fileID: 2100000, guid: 9f5f796ed5c702f44b4e8f286b70e859, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Mirror.001
+    second: {fileID: 2100000, guid: cca2c0573ce95b54c8d5f22de28e6b38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Orange_FrontLights
+    second: {fileID: 2100000, guid: 04f31effc58ed9540864b7e2a2167f59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-RL-Glass
+    second: {fileID: 2100000, guid: 81cb8c50674c5b44583354b114f3c4e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-RL_orange_glass
+    second: {fileID: 2100000, guid: 279df9341679ec04d88c8a3b1b7c4c09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-RL_orange_mirror
+    second: {fileID: 2100000, guid: cd0036aa9efa6a54996b22ba93ad6346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-RL_red_glass
+    second: {fileID: 2100000, guid: 52d819b1e2526494797608cc572e1ab1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-RL_red_glass.001
+    second: {fileID: 2100000, guid: 0dcd46181ee904e419c9f0a222a6283d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-RL_red_led
+    second: {fileID: 2100000, guid: f89d4c108fdb7f842a6694a659889752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-RL_red_led.001
+    second: {fileID: 2100000, guid: e2699ccea4b363f4ab8fcec20fef79e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-RL_red_mirror
+    second: {fileID: 2100000, guid: 8c1494bd54ee68e419de1eb685bf4f92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-RL_red_mirror.001
+    second: {fileID: 2100000, guid: 01aad85dda6faba40b0cb051baca1785, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-RL_white_glass
+    second: {fileID: 2100000, guid: aa971ab0bfa65a14db60fa9f2474194b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-RL_white_mirror
+    second: {fileID: 2100000, guid: 49d3d3b4c555a994384b6095913a3673, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Red_brakes
+    second: {fileID: 2100000, guid: 2648264d04d3ed4428699d0ef432b378, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Rubber
+    second: {fileID: 2100000, guid: aa0de39ca18063b4b8409059904dcbc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Rubber.001
+    second: {fileID: 2100000, guid: f2d82a1d3e6b74742a46df632f40bbd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Shield
+    second: {fileID: 2100000, guid: 0ab699ced7071eb458366a5e6b71b125, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Shield.001
+    second: {fileID: 2100000, guid: a68907259fd656146afe377f8b867b26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Shield_glossy
+    second: {fileID: 2100000, guid: f366df08a677431458dd5b9d5c75f268, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Shield_glossy.001
+    second: {fileID: 2100000, guid: 21c97a741f2df9044b5baeb7fdd2fbba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Spring
+    second: {fileID: 2100000, guid: 6eb88ee3d08177144b115c2b5674bbf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Steel
+    second: {fileID: 2100000, guid: deaea90463f4f0e4faf43da637b7d0eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-ValveCover
+    second: {fileID: 2100000, guid: 06c7434b464ddef4eb961c4eadcf0c8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Wheel-Alu
+    second: {fileID: 2100000, guid: 4ffe06f0245749844b4292eebc1e2d67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-Wheel-Alu_black
+    second: {fileID: 2100000, guid: a08391bb62aa87d41845b5a71e206ad3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-White Plastic
+    second: {fileID: 2100000, guid: cce8b19788c09b94f946046a2e13bc67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-brakes_pads
+    second: {fileID: 2100000, guid: 727e23f8eeb4e384da6496f27d4c2c4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-inside_belts
+    second: {fileID: 2100000, guid: ae49299aba75a664284da78c9a024533, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-inside_plastic_red
+    second: {fileID: 2100000, guid: eaed23bd7b27c404899154b53817e1f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEV-orange wire
+    second: {fileID: 2100000, guid: 47bf36a70b2b30e48b959f515dd3abff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompactEVpainted black
+    second: {fileID: 2100000, guid: 2d0abc6aaae9bb44c9bb5ee9bb1a58db, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

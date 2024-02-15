@@ -1,0 +1,4 @@
+CarShowRoom2.fbx filter=lfs diff=lfs merge=lfs -text
+D3D-CarDetails-CompactElectricCar_Close.FBX filter=lfs diff=lfs merge=lfs -text
+diffuse03.tif filter=lfs diff=lfs merge=lfs -text
+Hybrid[[:space:]]Car.fbx filter=lfs diff=lfs merge=lfs -text
