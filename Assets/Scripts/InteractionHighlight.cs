@@ -11,27 +11,30 @@ using UnityEngine.EventSystems;
 public class InteractionHighlight : MonoBehaviour
 {
     HighlightEffect highlightEffect;
+    private PointerEvents pointerEvents;
 
-    [SerializeField] UnityEvent clickEvent;
     void Start()
     {
         highlightEffect = GetComponent<HighlightEffect>();
+        pointerEvents = GetComponent<PointerEvents>();
+
+        pointerEvents.OnPointerClickEvent.AddListener((data) => Click(data));
+        pointerEvents.OnPointerEnterEvent.AddListener((data) => EnterHighlight(data));
+        pointerEvents.OnPointerExitEvent.AddListener((data) => ExitHighlight(data));
     }
 
-    public void Click()
+    public void Click(PointerEventData data)
     {
         highlightEffect.outlineColor = Color.green;
-        clickEvent.Invoke();
     }
 
-    public void EnterHighlight()
+    public void EnterHighlight(PointerEventData data)
     {
         highlightEffect.outlineColor = Color.red;
     }
 
-    public void ExitHighlight()
+    public void ExitHighlight(PointerEventData data)
     {
-
         highlightEffect.outlineColor = Color.blue;
     }
 }
