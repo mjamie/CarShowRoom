@@ -13,6 +13,8 @@ public class InteractionHighlight : MonoBehaviour
     HighlightEffect highlightEffect;
     private PointerEvents pointerEvents;
 
+    [SerializeField] private InfoDisplay infoDisplay;
+    [SerializeField] private int infoIndex;
     void Start()
     {
         highlightEffect = GetComponent<HighlightEffect>();
@@ -26,6 +28,7 @@ public class InteractionHighlight : MonoBehaviour
     public void Click(PointerEventData data)
     {
         highlightEffect.outlineColor = Color.green;
+        infoDisplay.ShowInfoAtIndex(infoIndex);
     }
 
     public void EnterHighlight(PointerEventData data)

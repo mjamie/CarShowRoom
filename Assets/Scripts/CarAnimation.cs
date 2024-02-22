@@ -8,7 +8,7 @@ public class CarAnimation : MonoBehaviour
 
     [SerializeField] private string animationID;
 
-    private bool carFloating = false;
+    [HideInInspector] public bool carFloating = false;
     public void PlayAnimationByID()
     {
         if (!carFloating)
