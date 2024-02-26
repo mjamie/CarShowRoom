@@ -1,6 +1,7 @@
 using BNG;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class InsideCar : MonoBehaviour
@@ -25,7 +26,7 @@ public class InsideCar : MonoBehaviour
         player = FindAnyObjectByType<PlayerTeleport>();
         audioSource = GetComponent<AudioSource>();
 
-        exitCarButton.GetComponent<Button>().onButtonDown.AddListener(() => ExitCar());
+        exitCarButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => ExitCar());
 
         startCarButton.SetActive(false);
         exitCarButton.SetActive(false);
