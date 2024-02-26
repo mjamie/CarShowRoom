@@ -19,12 +19,13 @@ public class InsideCar : MonoBehaviour
     private PlayerTeleport player;
     private AudioSource audioSource;
 
-
     private void Start()
     {
         carAnimation = GetComponent<CarAnimation>();
         player = FindAnyObjectByType<PlayerTeleport>();
         audioSource = GetComponent<AudioSource>();
+
+        exitCarButton.GetComponent<Button>().onButtonDown.AddListener(() => ExitCar());
 
         startCarButton.SetActive(false);
         exitCarButton.SetActive(false);
@@ -48,8 +49,10 @@ public class InsideCar : MonoBehaviour
 
     public void StartCarEngine()
     {
-        Debug.Log("CarStarting");
-       
+        if (!audioSource.clip)
+        {
+            return;
+        }
         StartCoroutine(StartCar());
     }
 
