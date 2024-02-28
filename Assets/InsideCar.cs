@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
 
 public class InsideCar : MonoBehaviour
 {
@@ -16,7 +17,8 @@ public class InsideCar : MonoBehaviour
     [Space]
     [SerializeField] private AudioClip carStartClip;
     [SerializeField] private AudioClip carMotorClip;
-
+    [Space]
+    [SerializeField] private AudioClip retractCarClip;
     private PlayerTeleport player;
     private AudioSource audioSource;
 
@@ -39,6 +41,10 @@ public class InsideCar : MonoBehaviour
             player.TeleportPlayerToTransform(insideCarPosition);
             startCarButton.SetActive(true);
             exitCarButton.SetActive(true);
+        }
+        else
+        {
+            audioSource.PlayOneShot(retractCarClip);
         }
     }
 

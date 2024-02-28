@@ -3,7 +3,14 @@ guid: e5365985f25e19640b8cccd46472d7ab
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - insideCarPosition: {instanceID: 0}
+  - exitCarPosition: {instanceID: 0}
+  - startCarButton: {instanceID: 0}
+  - exitCarButton: {instanceID: 0}
+  - carStartClip: {instanceID: 0}
+  - carMotorClip: {instanceID: 0}
+  - retractCarClip: {fileID: 8300000, guid: 3aea2ec0d3e0d834e90bfd6f007fe034, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
