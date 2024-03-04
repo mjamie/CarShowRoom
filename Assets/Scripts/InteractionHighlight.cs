@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(PointerEvents))]
 [RequireComponent(typeof(HighlightEffect))]
@@ -14,11 +15,14 @@ public class InteractionHighlight : MonoBehaviour
     private PointerEvents pointerEvents;
 
     [SerializeField] private InfoDisplay infoDisplay;
+    [SerializeField] private Sprite imageInfo; 
     [SerializeField] private int infoIndex;
     void Start()
     {
         highlightEffect = GetComponent<HighlightEffect>();
         pointerEvents = GetComponent<PointerEvents>();
+
+        infoDisplay.transform.GetChild(infoIndex).GetComponent<Image>().sprite = imageInfo;
 
         pointerEvents.OnPointerClickEvent.AddListener((data) => Click(data));
         pointerEvents.OnPointerEnterEvent.AddListener((data) => EnterHighlight(data));
