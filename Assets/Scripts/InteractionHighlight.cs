@@ -13,14 +13,18 @@ public class InteractionHighlight : MonoBehaviour
 {
     HighlightEffect highlightEffect;
     private PointerEvents pointerEvents;
+    private Transform tipTargetPoint;
 
     [SerializeField] private InfoDisplay infoDisplay;
-    [SerializeField] private Sprite imageInfo; 
+    [SerializeField] private Sprite imageInfo;
     [SerializeField] private int infoIndex;
     void Start()
     {
         highlightEffect = GetComponent<HighlightEffect>();
         pointerEvents = GetComponent<PointerEvents>();
+
+        tipTargetPoint = transform.GetChild(0);
+        //tipTargetPoint.gameObject.SetActive(false);
 
         infoDisplay.transform.GetChild(infoIndex).GetComponent<Image>().sprite = imageInfo;
 
@@ -33,15 +37,19 @@ public class InteractionHighlight : MonoBehaviour
     {
         highlightEffect.outlineColor = Color.green;
         infoDisplay.ShowInfoAtIndex(infoIndex);
+
+        tipTargetPoint!.gameObject.SetActive(false);
     }
 
     public void EnterHighlight(PointerEventData data)
     {
+        tipTargetPoint!.gameObject.SetActive(true);
         highlightEffect.outlineColor = Color.red;
     }
 
     public void ExitHighlight(PointerEventData data)
     {
+        tipTargetPoint!.gameObject.SetActive(false);
         highlightEffect.outlineColor = Color.blue;
     }
 }
