@@ -19,15 +19,26 @@ public class InsideCar : MonoBehaviour
     [SerializeField] private AudioClip carMotorClip;
     [Space]
     [SerializeField] private AudioClip retractCarClip;
-    private PlayerTeleport player;
+    [Space]
+    [SerializeField] private float playerOffsetInsideCar = -0.04f;
+
+    private PlayerTeleport playerTeleporter;
+
+    private float originalPlayerOffset;
+
+    private BNGPlayerController playerController;
     private AudioSource audioSource;
 
     private void Start()
     {
         carAnimation = GetComponent<CarAnimation>();
-        player = FindAnyObjectByType<PlayerTeleport>();
-        audioSource = GetComponent<AudioSource>();
 
+        playerTeleporter = FindAnyObjectByType<PlayerTeleport>();
+        playerController = playerTeleporter.GetComponent<BNGPlayerController>();
+
+        originalPlayerOffset = playerController.CharacterControllerYOffset;
+
+        audioSource = GetComponent<AudioSource>();
         exitCarButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => ExitCar());
 
         startCarButton.SetActive(false);
@@ -38,7 +49,9 @@ public class InsideCar : MonoBehaviour
     {
         if (!carAnimation.carFloating)
         {
-            player.TeleportPlayerToTransform(insideCarPosition);
+            playerTeleporter.TeleportPlayerToTransform(insideCarPosition);
+            StartCoroutine(SizeChangeDelay(-0.41f));
+
             startCarButton.SetActive(true);
             exitCarButton.SetActive(true);
         }
@@ -50,7 +63,10 @@ public class InsideCar : MonoBehaviour
 
     public void ExitCar()
     {
-        player.TeleportPlayerToTransform(exitCarPosition);
+        playerTeleporter.TeleportPlayerToTransform(exitCarPosition);
+
+        StartCoroutine(SizeChangeDelay(originalPlayerOffset));
+
         StopCar();
     }
 
@@ -80,6 +96,12 @@ public class InsideCar : MonoBehaviour
 
         audioSource.Play();
         audioSource.loop = true;
+    }
+
+    IEnumerator SizeChangeDelay(float playerOffset)
+    {
+        yield return new WaitForSeconds(0.1f);
+        playerController.CharacterControllerYOffset = playerOffset;
     }
 
 }

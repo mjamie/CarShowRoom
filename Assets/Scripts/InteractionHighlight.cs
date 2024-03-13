@@ -24,7 +24,7 @@ public class InteractionHighlight : MonoBehaviour
         pointerEvents = GetComponent<PointerEvents>();
 
         tipTargetPoint = transform.GetChild(0);
-        //tipTargetPoint.gameObject.SetActive(false);
+        tipTargetPoint.gameObject.SetActive(false);
 
         infoDisplay.transform.GetChild(infoIndex).GetComponent<Image>().sprite = imageInfo;
 
