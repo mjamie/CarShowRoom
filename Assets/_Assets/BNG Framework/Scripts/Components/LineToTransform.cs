@@ -36,7 +36,7 @@ namespace BNG {
         }
 
         void OnDrawGizmos() {
-            UpdateLine();
+            //UpdateLine();
         }
     }
 }
