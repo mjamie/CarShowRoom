@@ -86,8 +86,6 @@ namespace BNG
                 return;
             }
 
-            Debug.Log(MotorInput);
-
             if (MotorInput == 0 && EngineOn)
             {
                 StartCoroutine(StopEngine());
