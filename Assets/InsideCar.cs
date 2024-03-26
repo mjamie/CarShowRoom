@@ -41,6 +41,8 @@ public class InsideCar : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         exitCarButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => ExitCar());
 
+        LabelsDisplay(false);
+
         startCarButton.SetActive(false);
         exitCarButton.SetActive(false);
     }
@@ -54,6 +56,7 @@ public class InsideCar : MonoBehaviour
 
             startCarButton.SetActive(true);
             exitCarButton.SetActive(true);
+            LabelsDisplay(false);
         }
         else
         {
@@ -66,7 +69,7 @@ public class InsideCar : MonoBehaviour
         playerTeleporter.TeleportPlayerToTransform(exitCarPosition);
 
         StartCoroutine(SizeChangeDelay(originalPlayerOffset));
-
+        LabelsDisplay(true);
         StopCar();
     }
 
@@ -86,6 +89,21 @@ public class InsideCar : MonoBehaviour
 
         startCarButton.SetActive(false);
         exitCarButton.SetActive(false);
+    }
+
+    public void LabelsDisplay(bool enabled)
+    {
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            if (transform.GetChild(i).GetComponent<InteractionHighlight>())
+            {
+                for (int k = 0; k < transform.GetChild(i).GetComponents<BoxCollider>().Length; k++)
+                {
+                    transform.GetChild(i).GetComponents<BoxCollider>()[k].enabled = enabled;
+                }
+                
+            }
+        }
     }
 
     IEnumerator StartCar()
