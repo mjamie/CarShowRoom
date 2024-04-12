@@ -45,6 +45,11 @@ public class InsideCar : MonoBehaviour
 
         startCarButton.SetActive(false);
         exitCarButton.SetActive(false);
+
+        if (carStartClip)
+        {
+            audioSource.clip = carStartClip;
+        }
     }
 
     public void EnterCar()
@@ -108,6 +113,7 @@ public class InsideCar : MonoBehaviour
 
     IEnumerator StartCar()
     {
+        Debug.Log("Playing: " + carStartClip);
         audioSource.PlayOneShot(carStartClip);
         yield return new WaitForSeconds(carStartClip.length);
         audioSource.clip = carMotorClip;
