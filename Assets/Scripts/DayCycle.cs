@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class DayCycle : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class DayCycle : MonoBehaviour
         directionalLightRotation = directionalLight.transform.rotation;
     }
 
+    [ContextMenu("ChangeCycle")]
     public void ChangeDayCycle()
     {
         if (isNight)
@@ -37,6 +39,7 @@ public class DayCycle : MonoBehaviour
             directionalLight.color = directionalDayColor;
             RenderSettings.ambientLight = ambientDayColor;
             RenderSettings.skybox = skyBoxDay;
+            RenderSettings.ambientMode = AmbientMode.Skybox;
 
             directionalLight.transform.rotation = Quaternion.Euler(50, -120, 0);
 

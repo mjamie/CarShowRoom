@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
+using UnityEditor;
 
 public class InsideCar : MonoBehaviour
 {
@@ -127,5 +128,4 @@ public class InsideCar : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         playerController.CharacterControllerYOffset = playerOffset;
     }
-
 }

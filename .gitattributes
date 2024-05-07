@@ -3,3 +3,4 @@ D3D-CarDetails-CompactElectricCar_Close.FBX filter=lfs diff=lfs merge=lfs -text
 diffuse03.tif filter=lfs diff=lfs merge=lfs -text
 Hybrid[[:space:]]Car.fbx filter=lfs diff=lfs merge=lfs -text
 HyrdoCar.fbx filter=lfs diff=lfs merge=lfs -text
+Hydro[[:space:]]Car[[:space:]]Port.fbx filter=lfs diff=lfs merge=lfs -text
