@@ -11,6 +11,13 @@ public class PowerStationInteraction : MonoBehaviour
     [SerializeField] MeshRenderer powerIndicator;
     [SerializeField] CardScanner cardScanner;
 
+    private AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     public void PowerOnButtonClicked()
     {
         if (powerSlot.HeldItem && cardScanner.openButtons)
@@ -19,6 +26,7 @@ public class PowerStationInteraction : MonoBehaviour
 
             IEnumerator Charging()
             {
+                audioSource.Play();
                 yield return new WaitForSeconds(2);
                 powerIndicator.enabled = false;
                 powerSlot.CanRemoveItem = false;
