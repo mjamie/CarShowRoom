@@ -25,6 +25,11 @@ public class CarChargingWalkthrough : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
+    private void Start()
+    {
+        walkThroughStart = false;
+    }
+
     public void PlayNextAudioClip()
     {
         audioClipPos++;
